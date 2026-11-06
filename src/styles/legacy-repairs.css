@@ -1,5 +1,13 @@
 /* Original styles remain authoritative; these only repair controls and overflow. */
 .legacy-page { min-height: 100vh; max-width: 100%; overflow-x: clip; }
+/* Selection pages end at their content, not at a legacy viewport/footer spacer. */
+.legacy-page.legacy-selection { min-height: 0; }
+.legacy-selection #page-wrapper { min-height: 0 !important; padding-bottom: 16px; }
+.legacy-selection .page-wrapper { min-height: 0; }
+.legacy-selection #page-wrapper > .container-fluid > br { display: none; }
+.legacy-selection #page-wrapper [class*="col-"]:has(> .panel-default:not(:has(*))) { display: none; }
+.legacy-selection #page-wrapper .panel > .tab-content ~ br { display: none; }
+.legacy-selection #page-wrapper .panel { margin-bottom: 0; }
 .legacy-page .legacy-control { font: inherit; letter-spacing: normal; height: auto; }
 .legacy-page .africaVotesChat { height: auto; }
 .legacy-page #page-wrapper .col-lg-12 { max-width: 100%; }

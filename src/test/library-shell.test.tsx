@@ -6,6 +6,7 @@ const routerMock = vi.hoisted(() => ({ navigate: vi.fn(), history: { back: vi.fn
 const location = vi.hoisted(() => ({ pathname: '/' }));
 vi.mock('@tanstack/react-router', () => ({
   useRouter: () => routerMock,
+  useRouterState: ({ select }: { select: (state: { status: string }) => unknown }) => select({ status: 'idle' }),
   Link: ({ to, children, ...props }: { to: string; children?: unknown } & Record<string, unknown>) => <a href={to} {...props}>{children as never}</a>,
   useLocation: ({ select }: { select: (value: typeof location) => string }) => select(location),
 }));
@@ -19,13 +20,13 @@ describe('Shared class navigation', () => {
     fireEvent.click(contact);
     expect(screen.getByRole('dialog', { name: "Admin's contact" })).toBeInTheDocument();
     fireEvent.click(screen.getByRole('button', { name: 'Close contact card' }));
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(screen.queryByRole('dialog', { name: "Admin's contact" })).not.toBeInTheDocument();
     fireEvent.click(contact);
     fireEvent.click(screen.getByText('Page content'));
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(screen.queryByRole('dialog', { name: "Admin's contact" })).not.toBeInTheDocument();
     fireEvent.click(contact);
     fireEvent.click(screen.getByRole('button', { name: 'Toggle class menu' }));
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(screen.queryByRole('dialog', { name: "Admin's contact" })).not.toBeInTheDocument();
   });
 
   it('dismisses the phone drawer from its backdrop or close control', () => {

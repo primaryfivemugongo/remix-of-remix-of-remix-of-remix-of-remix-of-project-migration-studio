@@ -1,6 +1,7 @@
 import { memo } from 'react';
 import { Link } from '@tanstack/react-router';
 import styles from '@/styles/site-footer.css?raw';
+import { useCurrentYear } from '@/hooks/use-current-year';
 
 const icon = { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 2, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
 const social = [
@@ -36,7 +37,12 @@ export const SiteFooter = memo(function SiteFooter() {
           <Link to="/privacy" className="ho">Privacy Policy</Link>
         </div></div>
       </div>
-      <div className="site-footer__bottom"><p>© 2026 Fresh Teacher's Technologies <br />Made with <span className="site-footer__heart">❤️</span> by Fresh Teacher</p></div>
+      <div className="site-footer__bottom"><p>© <CopyrightYear /> Fresh Teacher's Technologies <br />Made with <span className="site-footer__heart">❤️</span> by Fresh Teacher</p></div>
     </div>
   </footer>;
 });
+
+function CopyrightYear() {
+  const year = useCurrentYear();
+  return <span>{year}</span>;
+}

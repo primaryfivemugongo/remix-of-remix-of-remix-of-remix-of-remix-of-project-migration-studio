@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import parse, { Element, type HTMLReactParserOptions } from 'html-react-parser';
 import { DocumentGallery } from '@/components/document-gallery';
 import { filterResources, type ResourcePageData, type ResourceRecord } from '@/lib/resources';
@@ -23,6 +23,7 @@ export function ResourcePage({ data }: { data: ResourcePageData }) {
   const options: HTMLReactParserOptions = { replace(node) {
     if (!(node instanceof Element)) return;
     if (node.name === 'nav') return <></>;
+    if (node.name === 'footer' || (node.attribs['class'] ?? '').split(' ').includes('footer')) return <></>;
     // The shared WhatsApp chat (LibraryShell) replaces the shell's plain floating link.
     if ((node.attribs['class'] ?? '').includes('floating-whatsapp')) return <></>;
     const id = node.attribs['id'];
@@ -38,14 +39,7 @@ export function ResourcePage({ data }: { data: ResourcePageData }) {
       {viewerError && <p role="alert">{viewerError}</p>}
     </div>;
     if (id === 'previousPageBtn' || id === 'nextPageBtn' || id === 'pageNumbers' || id === 'jumpToPage' || id === 'jumpButton') return <></>;
-    if (id === 'currentYear') return <CurrentYear />;
     return undefined;
   } };
   return <div className="resource-page"><style>{data.styles}</style><style>{repairs}</style>{parse(shell, options)}</div>;
-}
-
-function CurrentYear() {
-  const [year, setYear] = useState('');
-  useEffect(() => { setYear(String(new Date().getFullYear())); }, []);
-  return <span id="currentYear">{year}</span>;
 }

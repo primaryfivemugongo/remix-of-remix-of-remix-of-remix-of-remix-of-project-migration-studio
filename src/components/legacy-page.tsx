@@ -18,7 +18,6 @@ import { DocumentSearchInput } from '@/components/document-search-input';
 export function LegacyPage({ data, fragments }: { data: LegacyPageData; fragments: Record<string, string> }) {
   const [query, setQuery] = useState('');
   const [greeting, setGreeting] = useState('');
-  const [year, setYear] = useState('');
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const [dropdown, setDropdown] = useState<string | null>(null);
   const dropdownTrigger = useRef<HTMLElement>(null);
@@ -31,7 +30,6 @@ export function LegacyPage({ data, fragments }: { data: LegacyPageData; fragment
 
   useEffect(() => {
     setGreeting(legacyGreeting(new Date().getHours()));
-    setYear(String(new Date().getFullYear()));
     const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { setExpanded(new Set()); setDropdown(null); dropdownTrigger.current?.focus(); } };
     document.addEventListener('keydown', escape);
     return () => document.removeEventListener('keydown', escape);
@@ -86,6 +84,8 @@ export function LegacyPage({ data, fragments }: { data: LegacyPageData; fragment
     const props = attributesToProps(node.attribs);
     const id = node.attribs['id'];
     const classes = node.attribs['class'] ?? '';
+    // LibraryShell owns the only footer; keep audited fragments unchanged.
+    if (node.name === 'footer' || classes.split(' ').includes('footer')) return <></>;
     if (node.name === 'div' && node.children.some(child => child instanceof Element && child.attribs['id'] === 'jumpToPage')) return <></>;
     if ((node.name === 'nav' && classes.includes('navbar')) || classes.split(' ').includes('sidebar')) return <></>;
     if (node.name === 'fresh-fragment') return <>{domToReact(parsedDom(repairSearchMarkup(fragments[node.attribs['data-key'] ?? ''] ?? '')), options)}</>;
@@ -93,7 +93,6 @@ export function LegacyPage({ data, fragments }: { data: LegacyPageData; fragment
     if (id === 'cardsContainer') return <div {...props}>{cards}</div>;
     if (data.mode === 'paginated' && classes === 'row') return <div {...props}>{cards}</div>;
     if (id === 'noMoreResults' || id === 'previousPageBtn' || id === 'nextPageBtn' || id === 'pageNumbers' || id === 'jumpToPage' || id === 'jumpButton') return <></>;
-    if (id === 'currentYear') return <span {...props}>{year}</span>;
     if (id === 'greeting') {
       const icon = greeting.includes('morning') ? ['sun', '#f59e0b'] : greeting.includes('afternoon') ? ['cloud-sun', '#fb923c'] : ['moon', '#818cf8'];
       return <div {...props}>{greeting}{greeting && <> <i className={`fa-solid fa-${icon[0]}`} style={{ color: icon[1] }} aria-hidden="true" /></>}</div>;
@@ -128,5 +127,5 @@ export function LegacyPage({ data, fragments }: { data: LegacyPageData; fragment
     if (node.name === 'form') return <form {...props} onSubmit={event => event.preventDefault()}>{children(node)}</form>;
     return undefined;
   } };
-  return <div ref={root} className={`legacy-page ${sidebar ? '' : 'legacy-sidebar-hidden'} ${mobileSidebar ? 'legacy-sidebar-mobile-open' : ''}`}><style>{fragments[data.styles]}</style><style>{repairs}</style>{domToReact(parsedDom(source), options)}</div>;
+  return <div ref={root} className={`legacy-page ${data.mode === 'static' ? 'legacy-selection' : ''} ${sidebar ? '' : 'legacy-sidebar-hidden'} ${mobileSidebar ? 'legacy-sidebar-mobile-open' : ''}`}><style>{fragments[data.styles]}</style><style>{repairs}</style>{domToReact(parsedDom(source), options)}</div>;
 }

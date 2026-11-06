@@ -22,6 +22,7 @@ a.africaVotesChat { z-index: 2002; }
 .container .covers { max-width: 750px; margin-inline: 0; }
 .container .bookshelf { text-align: left; }
 .container .shelf-img { width: 750px; }
+.library-homepage .page-wrapper { min-height: 0; }
 @media (min-width: 768px) {
   .library-homepage .container { margin-left: 0; width: 100%; max-width: none; }
 }
