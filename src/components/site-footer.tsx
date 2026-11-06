@@ -20,7 +20,7 @@ export const SiteFooter = memo(function SiteFooter() {
     <style>{styles}</style>
     <div className="site-footer__inner">
       <div className="site-footer__grid">
-        <div className="site-footer__brand"><p className="site-footer__name">Fresh Teacher<span>Technologies</span></p><h4>Follow Us</h4><div className="site-footer__social">
+        <div className="site-footer__brand"><h4>Follow Us</h4><div className="site-footer__social">
           {social.map(s => <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer" className={s.cls} aria-label={s.label} title={s.label}>{s.svg}</a>)}
         </div></div>
         <div className="site-footer__contact"><h4>Contact Us</h4><div className="site-footer__list">
