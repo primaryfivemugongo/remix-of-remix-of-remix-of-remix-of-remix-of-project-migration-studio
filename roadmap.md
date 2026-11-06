@@ -12,3 +12,4 @@
 - [x] Verify navigation and contact controls on desktop and phone sizes.
 - [x] Remove duplicate page copyrights and make the shared footer year automatic.
 - [x] Tighten shelf and subject-selection footer spacing; verify phone and desktop views without changing document-page spacing.
+- [x] Restyle the footer with readable typography and cohesive groups; check phone and desktop layouts.

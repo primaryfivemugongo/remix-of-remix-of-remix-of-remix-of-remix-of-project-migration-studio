@@ -20,13 +20,13 @@ export const SiteFooter = memo(function SiteFooter() {
     <style>{styles}</style>
     <div className="site-footer__inner">
       <div className="site-footer__grid">
-        <div><h4>Follow Us</h4><div className="site-footer__social">
-          {social.map(s => <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer" className={s.cls} aria-label={s.label}>{s.svg}</a>)}
+        <div className="site-footer__brand"><p className="site-footer__name">Fresh Teacher<span>Technologies</span></p><h4>Follow Us</h4><div className="site-footer__social">
+          {social.map(s => <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer" className={s.cls} aria-label={s.label} title={s.label}>{s.svg}</a>)}
         </div></div>
-        <div><h4>Contact Us</h4><div className="site-footer__list">
+        <div className="site-footer__contact"><h4>Contact Us</h4><div className="site-footer__list">
           <a href="tel:+256750687790" className="hw">{whatsapp}+256750687790</a>
           <a href="tel:+256786812837" className="hw">{phone}+256786812837</a>
-          <a href="mailto:freshteacheruganda256@gmail.com" className="hb">{mail}freshteacheruganda256@gmail.com</a>
+          <a href="mailto:freshteacheruganda256@gmail.com" className="hb">{mail}<span>freshteacheruganda256@gmail.com</span></a>
         </div></div>
         <div><h4>Quick Links</h4><div className="site-footer__list">
           <Link to="/about" className="ho">About Us</Link>
@@ -37,7 +37,7 @@ export const SiteFooter = memo(function SiteFooter() {
           <Link to="/privacy" className="ho">Privacy Policy</Link>
         </div></div>
       </div>
-      <div className="site-footer__bottom"><p>© <CopyrightYear /> Fresh Teacher's Technologies <br />Made with <span className="site-footer__heart">❤️</span> by Fresh Teacher</p></div>
+      <div className="site-footer__bottom"><p>© <CopyrightYear /> Fresh Teacher's Technologies</p><p>Made with <span className="site-footer__heart">❤️</span> by Fresh Teacher</p></div>
     </div>
   </footer>;
 });

@@ -215,6 +215,20 @@
   --sidenav-active: oklch(0.94 0.03 25);
   --library-appbar-height: 64px;
   --library-sidenav-width: 256px;
+  --footer-surface: oklch(0.99 0 0);
+  --footer-foreground: oklch(0.27 0.015 270);
+  --footer-muted: oklch(0.47 0.015 270);
+  --footer-border: oklch(0.89 0.008 270);
+  --footer-social-surface: oklch(0.95 0.008 270);
+  --footer-accent: oklch(0.51 0.14 248);
+}
+.dark {
+  --footer-surface: oklch(0.2 0.01 270);
+  --footer-foreground: oklch(0.94 0.005 270);
+  --footer-muted: oklch(0.76 0.01 270);
+  --footer-border: oklch(0.36 0.01 270);
+  --footer-social-surface: oklch(0.29 0.015 270);
+  --footer-accent: oklch(0.78 0.1 248);
 }
 .library-shell { min-height: 100vh; }
 .library-appbar {
