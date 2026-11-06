@@ -1,0 +1,12 @@
+- [x] Cache successful thumbnails across visits without changing source PDF files.
+- [x] Limit thumbnail work and logo indicators to cards near the screen.
+- [x] Verify cache reuse, loading states, and the populated catalog on desktop and phone sizes.
+- [x] Show uploaded file-type logos until PDF covers are ready, retaining Office logos without loading.
+- [x] Check logo placeholders, PDF loading and completion on desktop and phone sizes.
+- [x] Show first PDF loading indicators before hydration without starting off-screen downloads.
+- [x] Reduce avoidable initial catalog redraw and verify delayed-script loading on desktop and phone sizes.
+- [x] Move document search guidance inside the search bar and remove subjects beneath the count.
+- [x] Consolidate Type, Size, and Order into a cascading Sort by menu.
+- [x] Verify filtering, search, and menu behavior on phone and desktop.
+- [x] Extract reusable top bar, contact card, side drawer, and memoized navigation tree without changing appearance or behavior.
+- [x] Verify navigation and contact controls on desktop and phone sizes.

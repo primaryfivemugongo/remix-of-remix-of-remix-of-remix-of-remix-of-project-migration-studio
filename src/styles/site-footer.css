@@ -1,0 +1,24 @@
+.site-footer{background:#fff;border-top:1px solid #e2e8f0;margin-top:auto;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:#0f172a;position:relative;z-index:1}
+.site-footer *{box-sizing:border-box}
+.site-footer__inner{max-width:80rem;margin:0 auto;padding:2rem 1rem}
+.site-footer__grid{display:grid;grid-template-columns:1fr;gap:2rem}
+@media (min-width:768px){.site-footer__grid{grid-template-columns:repeat(3,1fr)}}
+.site-footer h4{font-size:1rem;font-weight:600;margin:0 0 1rem;color:#0f172a}
+.site-footer__social{display:flex;gap:1rem}
+.site-footer a{border:0!important;background:none!important;padding:0!important;box-shadow:none!important;outline-offset:2px;color:#64748b;text-decoration:none;transition:color .2s}
+.site-footer__social a{display:inline-flex}
+.site-footer__social svg{width:20px;height:20px}
+.site-footer__list{display:flex;flex-direction:column;gap:.5rem}
+.site-footer__list a{display:flex;align-items:center;gap:.5rem;font-size:.875rem}
+.site-footer__list svg{width:16px;height:16px;flex:none}
+.site-footer a.hx:hover{color:#60a5fa}.site-footer a.hf:hover,.site-footer a.hb:hover{color:#2563eb}.site-footer a.hy:hover{color:#dc2626}.site-footer a.hi:hover{color:#db2777}.site-footer a.hg:hover{color:#4b5563}.site-footer a.hw:hover{color:#16a34a}.site-footer a.ho:hover{color:#ea580c}
+.site-footer__bottom{border-top:1px solid #e2e8f0;margin-top:2rem;padding-top:2rem;text-align:center;font-size:.875rem;color:#64748b}
+.site-footer__bottom p{margin:0}
+.site-footer__heart{display:inline-block;animation:site-footer-heart 1.5s ease-in-out infinite}
+@keyframes site-footer-heart{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+.info-page{max-width:56rem;margin:0 auto;padding:2rem 1rem 3rem;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:#0f172a;line-height:1.65}
+.info-page__back{display:inline-block;margin-bottom:1.5rem;color:#ea580c;font-weight:600;text-decoration:none}
+.info-page h1{font-size:2rem;font-weight:700;margin:0 0 1.5rem}
+.info-page h2{font-size:1.25rem;font-weight:600;margin:1.75rem 0 .5rem}
+.info-page p,.info-page li{color:#334155}
+.info-page ul{list-style:disc;padding-left:1.5rem;margin:.5rem 0}

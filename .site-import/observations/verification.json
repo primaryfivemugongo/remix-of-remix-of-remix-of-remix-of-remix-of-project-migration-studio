@@ -1,0 +1,190 @@
+[
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 0,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 1,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 2,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 3,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "Nursery > Baby > Lesson Notes",
+    "expected": "/BabyAllLessonNotes.html",
+    "observed": "/BabyAllLessonNotes.html",
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "desktop",
+    "control": "WhatsApp next step",
+    "observed": "https://web.whatsapp.com/send?phone=+256750687790&text=Hello",
+    "status": "passed; destination checked without sending"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 0,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 1,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 2,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 3,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "Nursery > Baby > Lesson Notes",
+    "expected": "/BabyAllLessonNotes.html",
+    "observed": "/BabyAllLessonNotes.html",
+    "status": "passed"
+  },
+  {
+    "page": "source",
+    "layout": "phone",
+    "control": "WhatsApp next step",
+    "observed": "https://web.whatsapp.com/send?phone=+256750687790&text=Hello",
+    "status": "passed; destination checked without sending"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 0,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 1,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 2,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "shelf scroll",
+    "step": 3,
+    "scroll": 588,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "Nursery > Baby > Lesson Notes",
+    "expected": "/BabyAllLessonNotes.html",
+    "observed": "/BabyAllLessonNotes.html",
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "desktop",
+    "control": "WhatsApp next step",
+    "observed": "https://web.whatsapp.com/send?phone=+256750687790&text=Hello",
+    "status": "passed; destination checked without sending"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 0,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 1,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 2,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "shelf scroll",
+    "step": 3,
+    "scroll": 397,
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "Nursery > Baby > Lesson Notes",
+    "expected": "/BabyAllLessonNotes.html",
+    "observed": "/BabyAllLessonNotes.html",
+    "status": "passed"
+  },
+  {
+    "page": "preview",
+    "layout": "phone",
+    "control": "WhatsApp next step",
+    "observed": "https://web.whatsapp.com/send?phone=+256750687790&text=Hello",
+    "status": "passed; destination checked without sending"
+  }
+]

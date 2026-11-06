@@ -1,0 +1,282 @@
+[
+  {
+    "layout": "desktop",
+    "control": "door-active",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-door-active.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "door-open",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-door-open.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "shelf-0",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 588,
+      "content": 0
+    },
+    "screenshot": "source-desktop-shelf-0.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "shelf-1",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 588,
+      "content": 0
+    },
+    "screenshot": "source-desktop-shelf-1.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "shelf-2",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 588,
+      "content": 0
+    },
+    "screenshot": "source-desktop-shelf-2.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "shelf-3",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 588,
+      "content": 0
+    },
+    "screenshot": "source-desktop-shelf-3.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "nursery",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nBaby Class\nMiddle Class\nTop Class\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-nursery.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "primary",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nPrimary One\nPrimary Two\nPrimary Three\nPrimary Four\nPrimary Five\nPrimary Six\nPrimary Seven\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-primary.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "secondary",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\nSenior One\nSenior Two\nSenior Three\nSenior Four\nSenior Five\nSenior Six\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-secondary.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "admin",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nAdmin's Contact:\n\nMutumba Jesse Paul\n\n+256750687790 / +256786812837\n\nfreshteacheruganda256@gmail.com\n\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-admin.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "chat",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\n\nFresh Teacher\nonline\n\nHello, good evening! \ud83c\udf19\n\u00d7\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-chat.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "chat-message",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\n\nFresh Teacher\nonline\n\nHello, good evening! \ud83c\udf19\n\u00d7\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-chat-message.png"
+  },
+  {
+    "layout": "desktop",
+    "control": "chat-closed",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-desktop-chat-closed.png"
+  },
+  {
+    "layout": "phone",
+    "control": "door-active",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-door-active.png"
+  },
+  {
+    "layout": "phone",
+    "control": "door-open",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-door-open.png"
+  },
+  {
+    "layout": "phone",
+    "control": "shelf-0",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 397,
+      "content": 0
+    },
+    "screenshot": "source-phone-shelf-0.png"
+  },
+  {
+    "layout": "phone",
+    "control": "shelf-1",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 397,
+      "content": 0
+    },
+    "screenshot": "source-phone-shelf-1.png"
+  },
+  {
+    "layout": "phone",
+    "control": "shelf-2",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 397,
+      "content": 0
+    },
+    "screenshot": "source-phone-shelf-2.png"
+  },
+  {
+    "layout": "phone",
+    "control": "shelf-3",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 397,
+      "content": 0
+    },
+    "screenshot": "source-phone-shelf-3.png"
+  },
+  {
+    "layout": "phone",
+    "control": "menu",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-menu.png"
+  },
+  {
+    "layout": "phone",
+    "control": "nursery",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nBaby Class\nMiddle Class\nTop Class\nPrimary Section\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-nursery.png"
+  },
+  {
+    "layout": "phone",
+    "control": "primary",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nPrimary One\nPrimary Two\nPrimary Three\nPrimary Four\nPrimary Five\nPrimary Six\nPrimary Seven\nSecondary Section\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-primary.png"
+  },
+  {
+    "layout": "phone",
+    "control": "secondary",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nLIBRARY\nLibrary home\nDownload Our App\nNursery Section\nPrimary Section\nSecondary Section\nSenior One\nSenior Two\nSenior Three\nSenior Four\nSenior Five\nSenior Six\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-secondary.png"
+  },
+  {
+    "layout": "phone",
+    "control": "menu-closed",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-menu-closed.png"
+  },
+  {
+    "layout": "phone",
+    "control": "admin",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\nAdmin's Contact:\n\nMutumba Jesse Paul\n\n+256750687790 / +256786812837\n\nfreshteacheruganda256@gmail.com\n\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-admin.png"
+  },
+  {
+    "layout": "phone",
+    "control": "chat",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\n\nFresh Teacher\nonline\n\nHello, good evening! \ud83c\udf19\n\u00d7\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-chat.png"
+  },
+  {
+    "layout": "phone",
+    "control": "chat-message",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\n\nFresh Teacher\nonline\n\nHello, good evening! \ud83c\udf19\n\u00d7\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-chat-message.png"
+  },
+  {
+    "layout": "phone",
+    "control": "chat-closed",
+    "text": "Fresh Teacher's Platform\nSince COVID-19\n\n\n\n\n\n\nPush this Door\n\n\n\n\n\n\n\n\nWELCOME TO FRESH TEACHER'S E-LIBRARY \ud83d\udcda\nChoose One Class From the Shelf to Continue:\n\n\n\n\n\n\n\n\nChat",
+    "scroll": {
+      "window": 0,
+      "content": 0
+    },
+    "screenshot": "source-phone-chat-closed.png"
+  }
+]
